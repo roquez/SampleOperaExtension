@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Sample Opera Extension",
-	"description": "This extensions activates the second tab from the end to illustrate the bug in Opera",
+	"description": "This extension activates the second tab from the end after tab remove to illustrate the bug in Opera",
 	"version": "1.0",
 	"background": {
 		"scripts": ["background.js"]
