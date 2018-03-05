@@ -3,7 +3,6 @@ var tabsInWindow;
 chrome.tabs.onRemoved.addListener(function(){
     chrome.tabs.update(tabsInWindow[tabsInWindow.length - 2], { active: true }); // actviate the second tab from the end
     updateTabList();
-console.log("onremoved")
 });
 
 chrome.tabs.onCreated.addListener(function(){
