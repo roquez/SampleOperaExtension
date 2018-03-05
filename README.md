@@ -1,5 +1,5 @@
 # SampleOperaExtension
-This extensions activates the second tab from the end to illustrate the bug in Opera
+This extension activates the second tab from the end after tab remove to illustrate the bug in Opera
 
 ## Bug description
 The bug applies to browser extensions and it occurs when you activate tab in tab remove event:
